@@ -54,7 +54,7 @@ public class Cache {
             while (true) {
                 String nextLine = Integer.toBinaryString(arquivoOut.readInt());//Transforma os números binarios em Ints e depois Strings;
                 this.totalAcessos++; //Para cada passada no while significa que ele passou para o próximo número ou seja aumenta +1 no total de acessos;
-                formataBinario(nextLine);//Ativa a função que....
+                formataBinario(nextLine);//Ativa a função que pega e transforma o binario do arquivo .bin em 32 bits, ou seja adiciona zeros a esquerda até ficar com 32;
 
             }
         } catch (IOException ex) {
