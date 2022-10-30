@@ -16,7 +16,7 @@ public class Input {
 
 // metodo que separa subString dentro da String de entrada //    
     private void splitCode(String inputCode) {
-        String[] arraySplit = inputCode.split(" ");//Arraya de Vetores para a entrada de valores Ex: cache_simulator 256 4 1 R 1 bin_100.bin
+        String[] arraySplit = inputCode.split(" "); // Array de Vetores para a entrada de valores Ex: cache_simulator 256 4 1 R 1 bin_100.bin
 
         if (arraySplit.length == 7) { //Pega cada valor de acordo com usa posição no vetor String de entrada
             this.nsets = Integer.parseInt(arraySplit[1]);
