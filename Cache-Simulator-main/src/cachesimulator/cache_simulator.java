@@ -14,7 +14,7 @@ public class cache_simulator {
         Input input = new Input();
         System.out.println("--------------Cache Simulator--------------");
         System.out.println("Digite sua entrada de acordo com a seguinte regra");
-        System.out.println("<numero Acesso> <taxa hit> <taxa miss> <taxaCompulsorio> <taxa Miss Capacidade> <Miss Conflito>");
+        System.out.println("cache_simulator <nsets> <bsize> <assoc> <substituição> <flag_saida> arquivo_de_entrada");
         while(flag == 0){
             input.inputCode();
             Cache cache = new Cache(input);
